@@ -23,4 +23,4 @@ if(__name__=="__main__"):
         print(1/0)
     except Exception as e:
         logging.info("Some error has occured")
-        raise CustomException("Division by zero")
+        raise CustomException("Division by zero",sys)
